@@ -11,7 +11,7 @@ API_HASH = getenv("API_HASH", "256fcc3280c94ecda7dee238a08c02c7") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5430528255").split()))
 OWNER_ID = int(getenv("OWNER_ID", "5697261678"))
-MONGO_URL = getenv("MONGO_URL")
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Yatoo99:Yatoo99@cluster0.3gj7zms.mongodb.net/?retryWrites=true&w=majority")
 BOT_TOKEN = getenv("BOT_TOKEN", "5888020629:AAGrGHbIV4lO_25ti6KGcNdy12Atm3X62as")
 ALIVE_PIC = getenv("ALIVE_PIC")
 ALIVE_TEXT = getenv("ALIVE_TEXT")
