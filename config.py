@@ -6,13 +6,13 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 
-API_ID = int(getenv("API_ID", "25394191")) #optional
+API_ID = int(getenv("API_ID", "23043800")) #optional
 API_HASH = getenv("API_HASH", "256fcc3280c94ecda7dee238a08c02c7") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5430528255").split()))
 OWNER_ID = int(getenv("OWNER_ID", "5697261678"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Yatoo99:Yatoo99@cluster0.3gj7zms.mongodb.net/?retryWrites=true&w=majority")
-BOT_TOKEN = getenv("BOT_TOKEN", "5888020629:AAGrGHbIV4lO_25ti6KGcNdy12Atm3X62as")
+BOT_TOKEN = getenv("BOT_TOKEN", "5862385277:AAHJ_pleWdwUYQtE1aoxC25YVhGQV20hCJI")
 ALIVE_PIC = getenv("ALIVE_PIC")
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
@@ -21,7 +21,7 @@ GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/ITZ-ZAID/ZAID-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
  
-STRING_SESSION1 = getenv("STRING_SESSION1", "BQAg6gSl7th0nqokOTATzeBgln4x2Cul2Y2mdmKfQiIxXmAJoiWqQ64EkiQ27U4ASVYQsN-UeCphJaA21_7Uu36b7YFXjMtJ1rUZeq7KYAI5ludi2OznC_aPyLjT0Xx3g83B_275JfJl-DG4B8cgJ41Ul-zDieBRFvEXC4C1OXliOY4qjJxsCkaEqwEJ23uZuItbvUQru0WH0Xx7jvJ9QffciafgYCsrgkGTnmUmCYwgV36FdmwcJ16FC6p9rTccbqrG1L5tJ2Q7CeBtDDPOFzQEeHHQUmB92WmoNDOhEibJWXVjfTabF8rb5HmDWM8vaE-1OfyTCE2MzwgRz5NxcFopAAAAAVOVUG4A")
+STRING_SESSION1 = getenv("STRING_SESSION1", "AQFfntgAFQ-B3tQm_DSGhubPLZih0ztSlXrpjczIYIxzZNIHjYNvYDBBLmxjT5GDoQAV4QDuVHlKMzQEt1Nd2WlhCjgzKvG3357fxHgFO5HK4uVgEEv5HpmVP4qzRjVRWQXQD4Cza58nkA0gBtsb0OAJCkCnkw5VnIl6hbkYWMUP3vKZ7VxF_-AxLftoKsWEUHZYRUyMwYnXJFJrBny8UbhBR1-ZPsU_s6JbCRbGazYt9fe8Rqf70cJV9dc1wERgkpzfx5NJ6FIGDPLrfL8MMtLe8WLHSbftMu24dbASYh0eiIiTwowTJjPmpCNz9cAYjHq4xHp7I96deDF492SSS6fQGyXN1AAAAAFRgf1zAA")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")
